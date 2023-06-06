@@ -1,5 +1,5 @@
 
-insall jenkins on ubunt/AWS 
+install jenkins on ubunt/AWS 
 
 firrst insall java 
 
@@ -33,3 +33,7 @@ sudo systemctl status jenkins
 
 to see password of jenkins- 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+Now we can  able to access the Jenkins server on port 8080 using the IP address as shown below.
+
+http://3.110.155.39:8080   Hint-->> public ip of ec2 instance follwed b 8080port number.
